@@ -1,0 +1,2 @@
+COLUMN TABLE BILLING (name nvarchar(256), card_number varchar(19))
+WITH MASK (card_number USING '****-****-****-' || RIGHT(card_number, 4));

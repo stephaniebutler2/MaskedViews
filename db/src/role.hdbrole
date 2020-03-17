@@ -1,0 +1,9 @@
+
+{
+	"role": {
+		"name": "mask_test",
+		"schema_privileges": [{
+			"privileges": ["SELECT"]
+		}]
+	}
+}

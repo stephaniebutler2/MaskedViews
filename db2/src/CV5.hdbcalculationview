@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="CV5" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV5"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="CV2">
+    <resourceUri>CV2</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="CV2">
+  <attributes>
+    <attribute id="MANDT" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="CV2" columnName="MANDT"/>
+    </attribute>
+    <attribute id="CARRID" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CARRID"/>
+      <keyMapping columnObjectName="CV2" columnName="CARRID"/>
+    </attribute>
+    <attribute id="CONNID" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONNID"/>
+      <keyMapping columnObjectName="CV2" columnName="CONNID"/>
+    </attribute>
+    <attribute id="FLDATE" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLDATE"/>
+      <keyMapping columnObjectName="CV2" columnName="FLDATE"/>
+    </attribute>
+    <attribute id="PRICE" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRICE"/>
+      <keyMapping columnObjectName="CV2" columnName="PRICE"/>
+    </attribute>
+    <attribute id="CURRENCY" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURRENCY"/>
+      <keyMapping columnObjectName="CV2" columnName="CURRENCY"/>
+    </attribute>
+    <attribute id="PLANETYPE" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLANETYPE"/>
+      <keyMapping columnObjectName="CV2" columnName="PLANETYPE"/>
+    </attribute>
+    <attribute id="SEATSMAX" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSMAX"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSMAX"/>
+    </attribute>
+    <attribute id="SEATSOCC" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSOCC"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSOCC"/>
+    </attribute>
+    <attribute id="PAYMENTSUM" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAYMENTSUM"/>
+      <keyMapping columnObjectName="CV2" columnName="PAYMENTSUM"/>
+    </attribute>
+    <attribute id="SEATSMAX_B" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSMAX_B"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSMAX_B"/>
+    </attribute>
+    <attribute id="SEATSOCC_B" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSOCC_B"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSOCC_B"/>
+    </attribute>
+    <attribute id="SEATSMAX_F" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSMAX_F"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSMAX_F"/>
+    </attribute>
+    <attribute id="SEATSOCC_F" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSOCC_F"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSOCC_F"/>
+    </attribute>
+    <attribute id="MANDT_1" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT"/>
+      <keyMapping columnObjectName="CV2" columnName="MANDT_1"/>
+    </attribute>
+    <attribute id="CARRID_1" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CARRID"/>
+      <keyMapping columnObjectName="CV2" columnName="CARRID_1"/>
+    </attribute>
+    <attribute id="CONNID_1" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CONNID"/>
+      <keyMapping columnObjectName="CV2" columnName="CONNID_1"/>
+    </attribute>
+    <attribute id="FLDATE_1" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FLDATE"/>
+      <keyMapping columnObjectName="CV2" columnName="FLDATE_1"/>
+    </attribute>
+    <attribute id="PRICE_1" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRICE"/>
+      <keyMapping columnObjectName="CV2" columnName="PRICE_1"/>
+    </attribute>
+    <attribute id="CURRENCY_1" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="CURRENCY"/>
+      <keyMapping columnObjectName="CV2" columnName="CURRENCY_1"/>
+    </attribute>
+    <attribute id="PLANETYPE_1" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PLANETYPE"/>
+      <keyMapping columnObjectName="CV2" columnName="PLANETYPE_1"/>
+    </attribute>
+    <attribute id="SEATSMAX_1" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSMAX"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSMAX_1"/>
+    </attribute>
+    <attribute id="SEATSOCC_1" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSOCC"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSOCC_1"/>
+    </attribute>
+    <attribute id="PAYMENTSUM_1" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PAYMENTSUM"/>
+      <keyMapping columnObjectName="CV2" columnName="PAYMENTSUM_1"/>
+    </attribute>
+    <attribute id="SEATSMAX_B_1" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSMAX_B"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSMAX_B_1"/>
+    </attribute>
+    <attribute id="SEATSOCC_B_1" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSOCC_B"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSOCC_B_1"/>
+    </attribute>
+    <attribute id="SEATSMAX_F_1" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSMAX_F"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSMAX_F_1"/>
+    </attribute>
+    <attribute id="SEATSOCC_F_1" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SEATSOCC_F"/>
+      <keyMapping columnObjectName="CV2" columnName="SEATSOCC_F_1"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

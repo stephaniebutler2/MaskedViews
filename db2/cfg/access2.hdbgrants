@@ -1,0 +1,10 @@
+{
+	"STEPHANIE-79t4r5qnzd6b44sd-MaskedViews-hdi_db": {
+		"object_owner": {
+			"container_roles": ["mask_test#"]
+		},
+		"application_user": {
+			"container_roles": ["mask_test"]
+		}
+	}
+}

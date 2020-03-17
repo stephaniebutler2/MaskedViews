@@ -1,0 +1,35 @@
+{
+  "CV1": {
+    "target": {
+      "object": "CV1",
+      "schema": "MASKEDVIEWS_HDI_DB_1"
+    }
+  },
+  "CV2": {
+    "target": {
+      "object": "CV2",
+      "schema": "MASKEDVIEWS_HDI_DB_1"
+    }
+  },
+  "BILLING": {
+    "target": {
+      "object": "BILLING",
+      "schema": "MASKEDVIEWS_HDI_DB_1",
+      "database": "HDB"
+    }
+  },
+  "mask_billing": {
+    "target": {
+      "object": "mask_billing",
+      "schema": "MASKEDVIEWS_HDI_DB_1",
+      "database": "HDB"
+    }
+  },
+  "masked_billing2": {
+    "target": {
+      "object": "masked_billing2",
+      "schema": "MASKEDVIEWS_HDI_DB_1",
+      "database": "HDB"
+    }
+  }
+}
